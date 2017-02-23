@@ -3,11 +3,19 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: first we would identify if naked twins are present within constraint, one we find the 
+that naked twins , we will try to eliminate both the digits from all the possible cells in that 
+perticular constraint ( eg: boxes )
+
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: to solve diagonal sudoku. we will create a new constraint called diagonal and fill it with all the 
+possible diagonal steps. once we have diagonal constraint we can repetately apply 
+    1. elimination 
+    2. only_choice and
+    3. naked_twins  and propogating the state across all possible constratins until we reach the solution
+    
 
 ### Install
 
