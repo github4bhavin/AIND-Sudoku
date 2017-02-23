@@ -62,5 +62,6 @@ def play(values_list):
                 quit()
 
 if __name__ == "__main__":
-    main()
+    diag_sudoku_grid = [ '2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3']
+    play(diag_sudoku_grid)
     sys.exit()
